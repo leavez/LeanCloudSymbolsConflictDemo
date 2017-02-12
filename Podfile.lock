@@ -1,0 +1,25 @@
+PODS:
+  - AVOSCloud (4.0.0)
+  - AVOSCloudIM (4.0.0):
+    - AVOSCloud (= 4.0.0)
+    - AVOSCloudIM/_ARC (= 4.0.0)
+    - AVOSCloudIM/_NOARC (= 4.0.0)
+  - AVOSCloudIM/_ARC (4.0.0):
+    - AVOSCloud (= 4.0.0)
+    - AVOSCloudIM/_NOARC (= 4.0.0)
+  - AVOSCloudIM/_NOARC (4.0.0):
+    - AVOSCloud (= 4.0.0)
+  - Protobuf (3.2.0)
+
+DEPENDENCIES:
+  - AVOSCloudIM
+  - Protobuf
+
+SPEC CHECKSUMS:
+  AVOSCloud: 77ff5c0695c09356b55fa52aa409f06a9cf6144a
+  AVOSCloudIM: 799cedd7c16be4e4372d29ae680106228d47288f
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+
+PODFILE CHECKSUM: d015f0a3be3f4bb1ff9ac1df57b7d2d004db6130
+
+COCOAPODS: 1.2.0
